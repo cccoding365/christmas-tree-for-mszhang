@@ -28,7 +28,7 @@ const App: React.FC = () => {
       {/* Note: Autoplay requires user interaction in most browsers, so it starts on the first click. */}
       <audio 
         ref={audioRef} 
-        src="./bgm.mp3" 
+        src="/bgm.mp3" 
         loop 
         autoPlay
       />
