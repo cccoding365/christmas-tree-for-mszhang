@@ -11,9 +11,9 @@ const ChristmasTree: React.FC = () => {
     if (!ctx) return;
 
     // 基础配置
-    const particleCount = 1200;
-    const lightCount = 120; // 螺旋灯带数量
-    const ornamentCount = 40; // 礼物/装饰物数量
+    const particleCount = 1500;
+    const lightCount = 320; // 螺旋灯带数量
+    const ornamentCount = 50; // 礼物/装饰物数量
     
     const treeParticles: any[] = [];
     const fairyLights: any[] = [];
@@ -196,7 +196,7 @@ const ChristmasTree: React.FC = () => {
       ctx.shadowBlur = 25;
       ctx.shadowColor = '#fcd34d';
       ctx.fillStyle = `rgba(255, 215, 0, ${starOpacity})`;
-      ctx.fillText('⭐', width / 2, height - 100 - 465);
+      ctx.fillText('🌟', width / 2, height - 100 - 465);
       ctx.shadowBlur = 0;
 
       animationFrameId = requestAnimationFrame(render);
