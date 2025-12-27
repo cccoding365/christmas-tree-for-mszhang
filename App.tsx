@@ -71,7 +71,7 @@ const App: React.FC = () => {
           {/* Interactive Gift Box at the foot of the tree */}
           <div
             onClick={openGift}
-            className="absolute opacity-0 left-1/2 -translate-x-1/2 bottom-12 group cursor-pointer transition-transform hover:scale-110 active:scale-95"
+            className="absolute left-1/2 -translate-x-1/2 bottom-12 group cursor-pointer transition-transform hover:scale-110 active:scale-95"
           >
             {/* Gift Box Body */}
             <div className="relative w-16 h-16 bg-gradient-to-br from-red-600 to-red-800 rounded-lg shadow-[0_0_30px_rgba(220,38,38,0.5)] border border-red-400/30 animate-bounce-slow">
